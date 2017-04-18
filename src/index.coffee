@@ -31,7 +31,7 @@ class Realtime extends EventEmitter
 
     connected: false
 
-    features: {}
+    features: {"orgspan:rooms":true,"orgspan:activeChats":true}
 
 class PurecloudBot extends Adapter
 
